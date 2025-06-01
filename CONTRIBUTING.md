@@ -1,6 +1,6 @@
 # Contributing
 
-This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit https://cla.microsoft.com.
+This project welcomes contributions and suggestions. Most contributions require you to agree to a Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us the rights to use your contribution. For details, visit <https://cla.microsoft.com>.
 
 If you are considering adding a new feature, it is recommended that you start by submitting an enhancement request so project maintainers can discuss, determine whether such an enhancement would be accepted, and provide input on the best way to implement the enhancement.
 
