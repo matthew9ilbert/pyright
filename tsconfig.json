@@ -1,24 +1,24 @@
 {
     "compilerOptions": {
-        "target": "es2020",
-        "module": "node16",
-        "lib": [
-            "es2020"
-        ],
-        "skipLibCheck": true,
-        "esModuleInterop": true,
-        "allowSyntheticDefaultImports": true,
-        "strict": true,
-        "forceConsistentCasingInFileNames": true,
-        "moduleResolution": "node16",
-        "resolveJsonModule": true,
-        "sourceMap": true,
+        "target": "ES2020",
+        "module": "commonjs",
         "outDir": "./out",
-        "noImplicitReturns": true,
-        "noImplicitOverride": true,
-        "checkJs": true,
-        "experimentalDecorators": true
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "typeRoots": ["./node_modules/@types", "../pyright-internal/typings"],
+        "paths": {
+            "pyright-internal/*": [
+                "../pyright-internal/src/*"
+            ]
+        }
     },
+    "include": [
+        "src/**/*",
+        "**/*.js",
+        "../pyright-internal/typings/*.d.ts"
+    ],
     "exclude": [
         "node_modules",
         "dist",
